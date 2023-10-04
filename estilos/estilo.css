@@ -2,6 +2,7 @@ body{
     background-color: rgb(46, 199, 54);
     font-family: Tahoma;
 }
+
 div#corpo{
     width: 800px;
     margin: auto;
@@ -10,6 +11,7 @@ div#corpo{
     box-shadow: 0px 0px 30px #777;
 }
 table.listagem{
+
     width: 100%;
     text-align: left;
     border-collapse: collapse;
@@ -17,10 +19,12 @@ table.listagem{
 table.listagem tr{
     height: 50px;
 }
+
 table.listagem td{
     
     padding: 10px;
 }
+
 table.listagem tr:nth-child(even){
     background-color: #f2f2f2 ;
 }
